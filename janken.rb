@@ -16,8 +16,8 @@ def janken
         @result = "win"
         return false
     else    
-        puts "あなたの負け!"
-        return false
+        puts "もう一回！"
+        return true
     end
 end
 again_game = true
